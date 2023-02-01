@@ -62,6 +62,9 @@ height: 100%;}
     padding: 20px;
     align-items: center;
     width: 280px; height: 280px;}
+    .manu.active1 a{
+        background-color: rgb(0, 4, 253);
+    }
 .manu a {text-decoration: none;
     background-color: white;
     border-radius: 5px;
@@ -71,6 +74,7 @@ height: 100%;}
     text-align: center;
     justify-content: space-evenly;}
 .active:hover {background-color: lightblue;}
+
 h3{
     color: black;
 }
@@ -99,8 +103,11 @@ h3{
     text-align: center;
     padding: 50px;
     margin: 0%;
-    background-color: rgb(3, 3, 73);
+    background-color:rgb(174, 8, 252);
     color: whitesmoke;
+    }
+    .footer-section h2{
+        font-size: 40px;
     }
 .footer-section .footer-item a{text-decoration: none;
     color: whitesmoke;}
