@@ -76,7 +76,6 @@ h3{
 }
 /* blog section end */
 /* match section start */
-/* ---- Match Section ---- */
 .match-section{display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-top: 100px;}
