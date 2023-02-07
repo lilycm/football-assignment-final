@@ -171,15 +171,39 @@ h3{
             flex-direction: column;
 
         }
+        .blog-section{
+            justify-content: center;
+            align-items: center;
+        }
         .blogs{
             display: grid;
             grid-template-columns: repeat(1 ,1fr);
             align-items: center;
             justify-content: center;
+            margin-top: 110px;
         }
         .blog{
            width: 80vw;
            justify-content: center;
            align-items: center;
+        }
+        .manu{
+            width: 50vw;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+            }
+        .container{
+            justify-content: center;
+        }
+            .manu a{
+                border: 2px solid gray;
+            }
+        footer{
+            margin-top: 24px;
+        }
+        .footer-item{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
         }
     }
