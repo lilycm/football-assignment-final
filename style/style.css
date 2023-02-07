@@ -126,7 +126,7 @@ h3{
     margin: 10px;}
     /* ---- Footer Section end ---- */
     /* media query start for phone */
-    @media screen and (max-width: 520px){
+    @media screen and (max-width: 580px) {
         
         main{
             margin: 10px;
@@ -180,7 +180,7 @@ h3{
             grid-template-columns: repeat(1 ,1fr);
             align-items: center;
             justify-content: center;
-            margin-top: 110px;
+            margin-top: 0px;
         }
         .blog{
            width: 80vw;
@@ -189,21 +189,32 @@ h3{
         }
         .manu{
             width: 50vw;
+            height: 60vw;
             background-color: white;
             justify-content: center;
             align-items: center;
+            padding: 0;
             }
         .container{
             justify-content: center;
         }
             .manu a{
                 border: 2px solid gray;
+                justify-content: center;
+                align-items: center;
             }
         footer{
             margin-top: 24px;
+        }
+        footer h2{
+            margin: 0;
         }
         .footer-item{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
         }
+    }
+    /* media query start for tab */
+    @media screen and (min-width: 580px) and (max-width: 992px) {
+        
     }
